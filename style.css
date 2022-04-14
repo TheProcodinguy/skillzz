@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 23, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillz h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: rgb(237, 223, 202);
+    font-size: 16px;
+}
+
+.progress-bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span{
+
+    background: rgb(0, 23, 54);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html{
+    background: #ff8989;
+}
+
+.css{
+    background: #8fba23;
+}
+
+.js{
+    background: #7dc6fe;
+}
+
+
+.bootstrap{
+    background: #ffee03;
+}
+
+
+.python{
+    background: #a301b1;
+}
+
+.html{
+    border: 1px solid #ff8989;
+    animation: html 1s linear forwards;
+}
+
+.css{
+    border: 1px solid #8fba23;
+    animation: css 1s linear forwards;
+}
+
+.js{
+    border: 1px solid #7dc6fe;
+    animation: js 1s linear forwards;
+}
+
+.bootstrap{
+    border: 1px solid #ffee03;
+    animation: bootstrap 1s linear forwards;
+}
+
+.python{
+    border: 1px solid #a301b1;
+    animation: python 1s linear forwards;
+}
+
+@keyframes html{
+    100%{
+       width: 97%;
+    }
+}
+
+@keyframes css{
+    100%{
+       width: 78%;
+    }
+}
+
+@keyframes js{
+    100%{
+       width: 57%;
+    }
+}
+
+@keyframes bootstrap{
+    100%{
+       width: 45%;
+    }
+}
+
+@keyframes python{
+    100%{
+       width: 23%;
+    }
+}
+
+.header{
+    background: #15097c;
+    height: 40px;
+}
+
+.header h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(255, 236, 236);
+    margin-left: 100vh;
+    margin-top: -2px;
+    font: lucida;
+}
